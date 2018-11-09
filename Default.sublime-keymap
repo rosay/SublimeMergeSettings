@@ -1,0 +1,12 @@
+[
+    {
+        "keys": ["ctrl+alt+f"],
+        "command": "git",
+        "args": {"argv": ["fetch", "--prune"]}
+    },
+    {
+        "keys": ["ctrl+alt+d"],
+        "command": "git",
+        "args": {"argv": ["checkout", "develop"]}
+    },
+]
