@@ -9,4 +9,9 @@
         "command": "git",
         "args": {"argv": ["checkout", "develop"]}
     },
+    {
+    "keys": ["ctrl+alt+p"],
+        "command": "git",
+        "args": {"argv": ["checkout", "-"]}
+    },
 ]
