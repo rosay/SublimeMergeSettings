@@ -1,17 +1,27 @@
 [
     {
+        "keys": ["ctrl+alt+h"],
+        "command": "show_command_palette",
+        "args": {"command": "file_history"}
+    },
+    {
+        "keys": ["ctrl+alt+b"],
+        "command": "show_command_palette",
+        "args": {"command": "blame"}
+    },
+    {
         "keys": ["ctrl+alt+f"],
         "command": "git",
         "args": {"argv": ["fetch", "--prune"]}
     },
     {
-        "keys": ["ctrl+alt+d"],
-        "command": "git",
-        "args": {"argv": ["checkout", "develop"]}
-    },
-    {
     "keys": ["ctrl+alt+p"],
         "command": "git",
         "args": {"argv": ["checkout", "-"]}
+    },
+    {
+    "keys": ["ctrl+alt+shift+d"],
+        "command": "git",
+        "args": {"argv": ["branch", "-d", "@{-1}"]}
     },
 ]
