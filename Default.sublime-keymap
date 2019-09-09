@@ -24,4 +24,12 @@
         "command": "git",
         "args": {"argv": ["branch", "-d", "@{-1}"]}
     },
+    {
+    "keys": ["ctrl+shift+s"],
+        "command": ""
+    },
+    {
+    "keys": ["ctrl+s"],
+        "command": ""
+    }
 ]
