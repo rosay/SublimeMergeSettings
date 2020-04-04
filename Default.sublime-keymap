@@ -10,6 +10,7 @@
         "args": {"command": "blame"}
     },
     {
+        "caption": "Fetch...",
         "keys": ["ctrl+alt+f"],
         "command": "git",
         "args": {"argv": ["fetch", "--prune"]}
@@ -26,10 +27,16 @@
     },
     {
     "keys": ["ctrl+shift+s"],
-        "command": ""
+        "command": "noop"
     },
     {
     "keys": ["ctrl+s"],
-        "command": ""
-    }
+        "command": "noop"
+    },
+    {
+    "keys": ["ctrl+alt+shift+a"],
+        "command": "git",
+        "args": {"argv": ["add", "-A"]}
+    },
+    
 ]
